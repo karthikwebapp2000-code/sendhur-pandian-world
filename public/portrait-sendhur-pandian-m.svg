@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
+  <title id="title">Sendhur Pandian portfolio avatar</title>
+  <desc id="desc">Abstract purple and teal monogram placeholder for a profile photo.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#10172b"/><stop offset=".55" stop-color="#292052"/><stop offset="1" stop-color="#123d48"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#a9c5ff"/><stop offset="1" stop-color="#4fd1c5"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="640" rx="64" fill="url(#bg)"/>
+  <g fill="none" stroke="url(#stroke)" stroke-width="3" opacity=".65">
+    <circle cx="320" cy="300" r="205" stroke-dasharray="3 12"/>
+    <ellipse cx="320" cy="300" rx="132" ry="205"/>
+    <ellipse cx="320" cy="300" rx="205" ry="132" transform="rotate(45 320 300)"/>
+  </g>
+  <circle cx="320" cy="300" r="132" fill="#0b1020" stroke="#4fd1c5" stroke-opacity=".65" stroke-width="2"/>
+  <text x="320" y="334" text-anchor="middle" font-family="Manrope,Arial,sans-serif" font-size="100" font-weight="800" fill="#edf3ff">SP</text>
+  <text x="320" y="550" text-anchor="middle" font-family="Manrope,Arial,sans-serif" font-size="22" letter-spacing="6" fill="#9aa6c2">PORTFOLIO</text>
+</svg>
