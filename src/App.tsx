@@ -153,6 +153,7 @@ export default function App() {
   const [language, setLanguage] = useState<Language>('ta');
   const [profile, setProfile] = useState<ProfileDetails>({ dateOfBirth: '', gender: 'prefer-not' });
   const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
   const [password, setPassword] = useState('');
   const [otp, setOtp] = useState('');
   const [message, setMessage] = useState('');
@@ -380,6 +381,22 @@ export default function App() {
           </button>
         </StepCard>
       )}
+
+      {stage === 'signup' && (
+  <label>
+    Phone number (include country code)
+    <input
+      type="tel"
+      autoComplete="tel"
+      required
+      value={phone}
+      onChange={(event) => setPhone(event.target.value)}
+      placeholder="+919876543210"
+      pattern="\+[1-9][0-9]{7,14}"
+      title="Enter your number with country code, e.g. +919876543210"
+    />
+  </label>
+)}
 
       {stage === 'verifySignup' && (
         <StepCard step={language === 'ta' ? 'மின்னஞ்சல் சரிபார்ப்பு' : 'EMAIL VERIFICATION'}>
