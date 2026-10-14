@@ -11,7 +11,7 @@ type GitHubCommit = {
   };
 };
 
-const repository = 'sendhurpandian'; // Update this to your verified GitHub username/repository.
+const repository = 'karthikwebapp2000-code/sendhur-pandian-world'; // Update this to your verified GitHub username/repository.
 
 const featureHighlights = [
   {
