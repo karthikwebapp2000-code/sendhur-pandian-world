@@ -29,7 +29,7 @@ export default function Header() {
       <div className="header-content">
         {/* Name ALWAYS visible - never hides */}
         <a href="#home" className="name-title">
-          Karthik<span>.</span>
+          Sendhur Pandian<span>.</span>
         </a>
         
         {/* Navigation hides on scroll down */}
